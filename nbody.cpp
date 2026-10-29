@@ -113,6 +113,7 @@ struct Body {
 // Choose eps larger than the closest approach you care to resolve but small
 // enough not to distort the large-scale dynamics.
 void compute_gravity(std::vector<Body>& bodies) {
+
 }
 
 // TODO: advance the simulation by dt using VELOCITY VERLET (kick-drift-kick).
@@ -134,6 +135,7 @@ void compute_gravity(std::vector<Body>& bodies) {
 // once before the first step (or step_simulation() must do it on the first
 // call) to prime the accelerations.
 void step_simulation(std::vector<Body>& bodies, double dt) {
+
 }
 
 // TODO: set up the initial bodies, run the integration loop, report the results.
